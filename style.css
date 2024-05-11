@@ -6,15 +6,22 @@
   margin: 0;
   font-family: "Poppins", sans-serif; /* Use imported font */
 }
-
+.main {
+  display: flex;
+}
 .main-container {
-  margin: 2rem; /* Center the main container horizontally */
+  margin: 1.5rem; /* Center the main container horizontally */
   position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.main-heading{
+  width: 100%;
 }
 
 .main-heading h1 {
   font-size: 5rem;
-  margin: 50px 0px 100px 0px;
+  margin: 50px 0px 80px 0px;
 }
 
 h2 {
@@ -31,14 +38,6 @@ h2 {
   width: auto;
 }
 
-.des p {
-  margin-bottom: 3rem; /* Add spacing between paragraphs */
-  font-family: "Noto Sans Malayalam", sans-serif; /* Use imported Malayalam font */
-  line-height: 2;
-  justify-content: space-around;
-  width: auto;
-}
-
 ul {
   list-style-type: disc; /* Use bullets for list items */
   margin-left: 20px; /* Add left margin to separate from heading */
@@ -48,20 +47,30 @@ li {
   font-family: "Noto Sans Malayalam", sans-serif; /* Use imported Malayalam font */
   line-height: 2; /* Adjust line spacing */
 }
-
+/* CSS */
+.home-button {
+  position: absolute;
+  top: 75px;
+  left: 1200px;
+}
 
 .home-button button {
-    padding: 10px 20px;
-    background-color: #8ab927;
-    color: black;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    position: absolute; /* Position the button */
-    top: 10px; /* Adjust the top position */
-    right: 10px; /* Adjust the right position */
+  font-size: 30px; /* Inherit font size */
+  padding: 10px 20px; /* Adjust padding */
+  border: 0;
+  border-radius: 10px;
+  background-color: #b4e944;
+  transition: all 1s ease;
+  transform: scale(1);
 }
-.eg{
+.eg {
   margin: 2rem;
 }
+.pic img{
+  position: relative;
+  top: 600px;
+  left: -100px;
+  padding-top: 20px;
+  height: fit-content;
+}
+
