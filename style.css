@@ -8,8 +8,7 @@
 }
 
 .main-container {
-  margin: 3rem; /* Center the main container horizontally */
-
+    margin: 3rem; /* Center the main container horizontally */
 }
 
 .main-heading h1 {
@@ -20,32 +19,32 @@
 h2 {
     font-size: 1.5em;
     font-family: 'Noto Sans Malayalam', sans-serif;
-    
     margin: 20px 0; /* Adjust line spacing */
     font-weight: bold;
 }
 
 .description p {
-    margin-bottom: 3rem; /* Add spacing between paragraphs *//* Use imported Malayalam font */
+    margin-bottom: 3rem; /* Add spacing between paragraphs */
     line-height: 2; /* Adjust line spacing */
     justify-content: space-around;
     width: auto;
+}
 
+.des p {
+    margin-bottom: 3rem; /* Add spacing between paragraphs */
+    font-family: 'Noto Sans Malayalam', sans-serif; /* Use imported Malayalam font */
+    line-height: 2;
+    justify-content: space-around;
+    width: auto;
 }
-.des p{
-  margin-bottom: 3rem; /* Add spacing between paragraphs */
-  font-family: 'Noto Sans Malayalam', sans-serif; /* Use imported Malayalam font */
-  line-height: 2; 
-  justify-content: space-around;
-  width: auto;
 
+ul {
+    list-style-type: disc; /* Use bullets for list items */
+    margin-left: 20px; /* Add left margin to separate from heading */
 }
-/* Adjustments for Noto Sans Malayalam font */
-.noto-sans-malayalam {
-    font-family: 'Noto Sans Malayalam', sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100; /* Adjust width value as needed */
+
+li {
+    font-family: 'Noto Sans Malayalam', sans-serif; /* Use imported Malayalam font */
+    line-height: 2; /* Adjust line spacing */
 }
+
