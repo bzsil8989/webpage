@@ -13,7 +13,7 @@
 
 .main-heading h1 {
     font-size: 5rem;
-    margin: 100px 0px;
+    margin: 50px 0px 100px 0px
 }
 
 h2 {
@@ -24,6 +24,7 @@ h2 {
 }
 
 .description p {
+
     margin-bottom: 3rem; /* Add spacing between paragraphs */
     line-height: 2; /* Adjust line spacing */
     justify-content: space-around;
@@ -31,6 +32,7 @@ h2 {
 }
 
 .des p {
+    
     margin-bottom: 3rem; /* Add spacing between paragraphs */
     font-family: 'Noto Sans Malayalam', sans-serif; /* Use imported Malayalam font */
     line-height: 2;
@@ -48,3 +50,29 @@ li {
     line-height: 2; /* Adjust line spacing */
 }
 
+.image-container {
+    float: right;
+    padding-top: 60px; /* Adjust margins as needed */
+    height: fit-content; /* Adjust width as needed */
+  }
+.home-button {
+    position: fixed;
+    top: 80px;
+    right: 40px;
+    z-index: 1000; /* Ensure button is above other content */
+   
+}
+
+.home-button button {
+    padding: 10px 20px;
+    background-color: #8ab927;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.home-button button:hover {
+    background-color: #6e991c;
+}
